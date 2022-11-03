@@ -30,7 +30,7 @@ const Description = ({
   const componentDidMount = useCallback(() => {
     setTimeout(() => {
       setConfetti(false);
-    }, 6000)
+    }, 8000)
   }, [setConfetti]);
   useEffect(() => {
     componentDidMount();
@@ -81,8 +81,8 @@ const Description = ({
           <Typography
             component={"span"}
             sx={{
-              color: "#FC5339",
-              textDecoration: "underline",
+              color: "#1F1F1F",
+              //textDecoration: "underline",
               fontFamily: "GilroyRegular",
               fontSize: "25px",
             }}

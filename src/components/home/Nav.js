@@ -1,5 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import circle from "../../static/images/Circle.png";
+import q2logo from "../../static/images/q2-logo.png";
 
 const Nav = () => {
   return (
@@ -20,10 +21,10 @@ const Nav = () => {
           sx={{
             height: "38px",
             width: "38px",
-            marginRight: "1px",
+            marginRight: "34px",
           }}
         >
-          <img src={circle} alt="logo" />
+          <img src={q2logo} alt="logo" />
         </Box>
         <Typography
           sx={{
@@ -32,17 +33,17 @@ const Nav = () => {
             color: "#1F1F1F",
           }}
         >
-          IFP
+           
         </Typography>
       </Box>
       <Typography
         sx={{
           fontFamily: "GilroyRegular",
-          fontSize: "20px",
-          color: "#1F1F1F",
+          fontSize: "25px",
+          color: "#FC5339",
         }}
       >
-        Intelligent financial planner
+        Smart Financial Advisor
       </Typography>
     </Box>
   );
